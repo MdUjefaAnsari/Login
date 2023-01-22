@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Button in bootstrap</title>
+   
+    <style>
+        .container-fluid {
+            background-color: rgb(61, 60, 60);
+            border: 2px solid black;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="text py-2 ">
+            <h2>Welcome To Login </h2>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <label class ="text"for="">Name</label>
+                    <input  type="text" class="form-control" required>
+                    <label class ="text"for="">Email</label>
+                    <input type="email" class="form-control" required>
+                    <label class ="text"for="">Password</label>
+                    <input type="password" class="form-control" required>
+                    <small class="text-white-50">Password must in between 4 to 8 min character!</small><br />
+                   
+                </div>
+                <div class="col-md-6">
+                    Upload your Resume<input type="file"class="form-control-file">
+                    <div class="form-group">
+                        <label for="">Skills</label><br />
+                        <input type="checkbox" class="form-check-label">Java
+                        <input type="checkbox" class="form-check-label">MySql
+                        <input type="checkbox" class="form-check-label">C++
+                        <input type="checkbox" class="form-check-label">PHP<br />
+                        <label for="">Cities</label>
+                        <input type="submit"class="btn btn-outline-warning btn-block">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
